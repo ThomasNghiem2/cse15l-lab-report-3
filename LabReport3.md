@@ -42,10 +42,22 @@ The code is functional until halfway through the array, where it then starts to 
 *`find` command
 1. `-name` <br>
 a. `$ find technical/plos -name '*.txt'` <br>
-![Image](find-command-name-option1.png) <br>
-b. `$ find technical/plos -name 'pmed.*.txt'` <br>
 ![Image](find-command-name-option2.png) <br>
+This is useful in searching all files with names containing `.txt` within the given directory.
+b. `$ find technical/plos -name 'pmed.*.txt'` <br>
+![Image](find-command-name-option1.png) <br>
+This is useful, like the previous one, but more specific to files containing `pmed` as well.
 2. `-type` <br>
-a. 
+a. `$ find technical/plos -type f` <br>
+![Image](find-command-type-option1.png) <br>
+This is useful for finding all files within the given directory.
+b. `$ find technical/ -type d` <br>
+![Image](find-command-type-option2.png) <br>
+This is useful for finding all directories within the given directory.
+3. `-size` <br>
+a. `$ find technical/plos -size -10k` <br>
+![Image](find-command-size-option1.png) <br>
+b. `$ find technical/plos -size +10k` <br>
+![Image](find-command-name-option2.png) <br>
 
 Citation: https://tecadmin.net/linux-find-command-with-examples/
