@@ -42,9 +42,9 @@ The code is functional until halfway through the array, where it then starts to 
 *`find` command
 1. `-name` <br>
 a. `$ find technical/plos -name '*.txt'` <br>
-![Image](.png) <br>
+![Image](find-command-name-option1.png) <br>
 b. `$ find technical/plos -name 'pmed.*.txt'` <br>
-![Image](.png) <br>
+![Image](find-command-name-option2.png) <br>
 2. `-type` <br>
 a. 
 
