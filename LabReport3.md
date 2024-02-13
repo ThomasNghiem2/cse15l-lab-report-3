@@ -37,5 +37,15 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-The code is functional until halfway through the array, where it then starts to reverse using the changed values. So, a temporary int value is useful in saving the original value before it is changed in order to change the values in the latter half of the array.
+The code is functional until halfway through the array, where it then starts to reverse using the changed values. So, a temporary value is useful in saving the original value before it is changed in order to change the values in the latter half of the array.
 ## Part 2
+*`find` command
+1. `-name` <br>
+a. `$ find technical/plos -name '*.txt'` <br>
+![Image](.png) <br>
+b. `$ find technical/plos -name 'pmed.*.txt'` <br>
+![Image](.png) <br>
+2. `-type` <br>
+a. 
+
+Citation: https://tecadmin.net/linux-find-command-with-examples/
