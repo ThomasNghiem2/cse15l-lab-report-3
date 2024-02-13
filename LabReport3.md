@@ -39,7 +39,7 @@ static void reverseInPlace(int[] arr) {
 ```
 The code is functional until halfway through the array, where it then starts to reverse using the changed values. So, a temporary value is useful in saving the original value before it is changed in order to change the values in the latter half of the array.
 ## Part 2
-*`find` command
+* `find` command
 1. `-name` <br>
 a. `$ find technical/plos -name '*.txt'` <br>
 ![Image](find-command-name-option2.png) <br>
@@ -59,12 +59,14 @@ a. `$ find technical/plos -size -10k` <br>
 ![Image](find-command-size-option1.png) <br>
 This is useful in finding files in the given directory that are smaller than 10 KB. <br>
 b. `$ find technical/plos -size +10k` <br>
-![Image](find-command-name-option2.png) <br>
+![Image](find-command-size-option2.png) <br>
 This is useful in finding files in the given directory that are larger than 10 KB. <br>
 4. `-mtime` <br>
 a. `$ find technical/plos -mtime -7` <br>
+![Image](find-command-mtime-option1.png) <br>
 This is useful for finding files in the given directory that have been modified within the past 7 days. <br>
 b. `$ find technical/plos -mtime +4` <br>
+![Image](find-command-mtime-option2.png) <br>
 This is useful for finding files in the given directory that have not been modified within the past 4 days. <br>
 
 
